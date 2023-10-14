@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0 10px;
+}
+
+.promo {
+    height: 900px;
+    background: url(../img/yanki-bg.jpg) no-repeat center / cover
+}
+
+.header {
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+}
+
+.icons {
+    cursor: pointer;
+    display: flex;
+    gap: 25px;
+}
+
+.menu a {
+    color: #FFF;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+text-decoration: 0;
+}
+
+.promo-text {
+    padding-top: 329px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.promo-text h1 {
+    padding-bottom: 20px;
+    
+    color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 46px;
+font-style: normal;
+font-weight: 300;
+}
+
+.line {
+    width: 120px;
+    height: 1px;
+    background-color: #FFF;
+    margin-bottom: 20px;
+}
+
+.promo-text a {
+    color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+text-transform: uppercase;
+text-decoration: 0;
+}
+
+.promo-text a svg {
+    vertical-align: middle;
+}
+
+.catalog {
+    padding-block: 100px 0;
+}
+
+.catalog-h1 {
+    padding-bottom: 50px;
+
+    color: #252525;
+font-family: Raleway;
+font-size: 36px;
+font-style: normal;
+font-weight: 300;
+}
+
+.catalog-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.catalog-item {
+    position: relative;
+}
+
+.catalog-item a {
+    position: absolute;
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-block: 9px;
+
+    background: rgba(224, 190, 162, 0.75);
+    backdrop-filter: blur(3px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+text-decoration: 0;
+}
+
+.catalog-item img {
+    width: 100%;
+}
+
+.form {
+    padding-block: 100px 0;
+}
+
+.form-wrap {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form h1 {
+    color: #252525;
+text-align: center;
+font-family: Raleway;
+font-size: 36px;
+font-style: normal;
+font-weight: 300;
+padding-bottom: 50px;
+}
+
+.email {
+    width: 600px;
+    height: 50px;
+
+    text-align: center;
+
+    color: black;
+    text-align: center;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+
+margin-bottom: 20px;
+}
+
+.email::placeholder {
+text-align: center;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 200;
+}
+
+form button {
+    width: 600px;
+    height: 50px;
+
+    border: 0;
+
+    display: flex;
+width: 600px;
+padding: 16px 81px 17px 81px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: #E0BEA2;
+
+color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+text-transform: uppercase;
+cursor: pointer;
+
+margin-bottom: 20px;
+}
+
+form p {
+    color: #252525;
+text-align: center;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 200;
+}
+
+.footer {
+    padding-block: 100px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 47px;
+} 
+
+.footer-elem {
+    display: flex;
+    flex-direction: column;
+}   
+
+.footer-elem h3 {
+    color: #252525;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+padding-bottom: 20px;
+}
+
+.footer-elem a {
+    color: #252525;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 200;
+text-decoration: 0;
+padding-bottom: 10px;
+}
